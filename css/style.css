@@ -1,0 +1,279 @@
+body {
+  font-size: 16px;
+}
+
+.banner-bg .banner-content .btn, .bg-gray .btn {
+  border-color: #0872fd;
+  padding: 32px 0;
+  color: #fff;
+  min-width: 240px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+
+header {
+  background-color: #212121;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+header .navbar .mobile-nav i {
+  background-color: #fff;
+  color: #212121;
+  padding: 20px;
+  font-size: 20px;
+}
+
+header .navbar ul li {
+  font-weight: 700;
+  text-transform: lowercase;
+  margin: 0 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+header .navbar ul li a {
+  color: #fff;
+}
+
+header .navbar .purchase-btn {
+  background-color: #0872fd;
+  color: #fff;
+  font-weight: 700;
+  padding: 33px 30px;
+  min-width: 240px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+header .navbar .purchase-btn:hover {
+  background-color: transparent;
+  border: 2px solid #0872fd;
+}
+
+.banner-bg {
+  background-image: url("../images/slide_1.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 700px;
+}
+
+.banner-bg .banner-content .text-italic {
+  font-size: 32px;
+  color: #ec3700;
+  font-weight: 400;
+  font-family: "'Playfair Display', serif";
+  font-style: italic;
+}
+
+.banner-bg .banner-content .banner-heading {
+  font-size: 80px;
+}
+
+.banner-bg .banner-content .banner-heading span {
+  font-weight: 100;
+}
+
+.banner-bg .banner-content .banner-heading .head-bold {
+  font-weight: 700;
+}
+
+.banner-bg .banner-content p {
+  color: #808080;
+}
+
+.banner-bg .banner-content .btn {
+  background-color: transparent;
+  border: 2px solid #0872fd;
+}
+
+.banner-bg .banner-content .btn:hover {
+  background-color: #0872fd;
+}
+
+.banner-bg .mouse {
+  margin-top: 100px;
+}
+
+.banner-bg .mouse .mouse-animation {
+  -webkit-animation: updown  1.8s ease-in-out infinite;
+          animation: updown  1.8s ease-in-out infinite;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.feature-demo {
+  background-image: url("../images/slide_2.jpg");
+  background: cover center center no-repeat;
+  width: 100%;
+  height: auto;
+  padding: 180px 0;
+}
+
+.feature-demo h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.feature-demo h2 span {
+  color: #ec3700;
+}
+
+.feature-demo h2 span .italic-text {
+  font-weight: 400;
+  font-family: "'Playfair Display', serif";
+  font-style: italic;
+  color: #212121;
+}
+
+.feature-demo .demos .demo-1 {
+  width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 12px 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 12px 7px rgba(0, 0, 0, 0.1);
+}
+
+.feature-demo .demos .demo-1:hover img {
+  -webkit-transform: translateY(-78%);
+          transform: translateY(-78%);
+  -webkit-transition: all 2.5s ease-in-out;
+  transition: all 2.5s ease-in-out;
+}
+
+.feature-demo .demos .demo-1 img {
+  max-width: 100%;
+  -webkit-transition: all 2.5s ease-in-out;
+  transition: all 2.5s ease-in-out;
+}
+
+.feature-demo .demos .demo-project h4, .feature-demo .demos .demo-project .service h5, .service .feature-demo .demos .demo-project h5 {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.feature-demo .demos .demo-project h4 span, .feature-demo .demos .demo-project .service h5 span, .service .feature-demo .demos .demo-project h5 span {
+  font-weight: 400;
+  font-family: "'Playfair Display', serif";
+  font-style: italic;
+}
+
+.service h5 {
+  letter-spacing: unset;
+  text-transform: capitalize;
+  margin-top: 25px;
+  font-weight: 700;
+}
+
+.service p {
+  color: #5c6f87;
+}
+
+.bg-gray {
+  background-color: #1f2427;
+  padding: 180px 0;
+}
+
+.bg-gray .car-head {
+  color: #fff;
+  font-size: 60px;
+}
+
+.bg-gray .car-head span span {
+  color: #ec3700;
+}
+
+.bg-gray .car-head .text-italic {
+  font-weight: 400;
+  font-family: "'Playfair Display', serif";
+  font-style: italic;
+}
+
+.bg-gray .btn {
+  background-color: #0872fd;
+}
+
+.bg-gray .btn:hover {
+  background-color: transparent;
+  border: 2px solid #0872fd;
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-brand {
+    width: 200px;
+  }
+  .navbar .navbar-brand img {
+    width: 80%;
+  }
+  .banner-bg .banner-content .banner-heading {
+    font-size: 45px !important;
+  }
+  .banner-bg .banner-content p {
+    margin-bottom: 0;
+  }
+  .feature-demo .demo-project {
+    margin-bottom: 40px;
+  }
+  .service .row {
+    padding: 0  !important;
+  }
+  .service .row p {
+    margin-bottom: 40px;
+  }
+  .bg-gray .car-head {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar .purchase-btn {
+    padding: 20px 30px !important;
+    min-width: auto !important;
+    margin-left: 25px !important;
+  }
+  .banner-bg .banner-content {
+    text-align: center;
+  }
+  .banner-bg .banner-content .banner-heading {
+    font-size: 60px;
+  }
+  .banner-bg .banner-content .btn {
+    margin-top: 40px;
+  }
+  .banner-bg .banner-content p {
+    margin-bottom: 0;
+  }
+  .banner-bg .mouse {
+    margin-top: 40px;
+  }
+  .feature-demo {
+    padding: 90px 0;
+  }
+  .feature-demo .demo-project:last-child {
+    margin: 50px auto;
+  }
+  .bg-gray {
+    padding: 90px 0;
+  }
+  .bg-gray .btn {
+    margin-top: 40px;
+  }
+}
+
+@-webkit-keyframes updown {
+  50% {
+    -webkit-transform: translateY(-15%);
+            transform: translateY(-15%);
+  }
+}
+
+@keyframes updown {
+  50% {
+    -webkit-transform: translateY(-15%);
+            transform: translateY(-15%);
+  }
+}
+/*# sourceMappingURL=style.css.map */

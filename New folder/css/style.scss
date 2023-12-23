@@ -1,0 +1,15 @@
+@mixin big($size:3rem , $up:null){
+    font-size: $size;
+    @if $up == null{
+        transform: rotate(2deg);
+    }
+    @else if $up == true{
+        transform: rotate(40deg);
+    }
+    @else {
+        transform: rotate(90deg);
+    }
+}
+p:nth-child(2){
+    @include big(3rem, false);
+}

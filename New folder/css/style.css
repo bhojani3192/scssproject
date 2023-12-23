@@ -1,0 +1,6 @@
+p:nth-child(2) {
+  font-size: 3rem;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+/*# sourceMappingURL=style.css.map */
